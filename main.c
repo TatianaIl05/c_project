@@ -39,9 +39,9 @@ int main()
     printing_centroids(centroids2, clust_count_pl1, dim, 1);
     printing_points(data, n, dim, indec2, 1);
 
-    free(indec2);
     free_points(centroids2, clust_count_pl1);
     free(centroids2);
+    free(indec2);
 
 
    free_points(data, n);  
